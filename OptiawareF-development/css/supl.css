@@ -1,0 +1,290 @@
+
+
+section.graySection{
+    background-color: #EAEAEA;
+    border-bottom: 1px solid #DADADA;
+    min-height: 120px;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+}
+
+
+.graySection h2{
+    font-size: 2.4rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #252525;
+    text-align: center;
+
+}
+.graySection p{
+    text-align: center;
+    font-size: 1.6rem;  
+    font-family: sans-serif;
+    margin:0 auto;
+
+    color: #3F3F3F;
+    line-height: 2.4rem;
+    max-width: 350px;
+}
+
+.graySection.test
+{
+    height: 360px;
+   
+}
+
+@media(min-width:10px) {
+  
+    .homeContent{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1115px;
+        justify-content: center;
+        background-color: #EAEAEA;
+        margin: 0 auto;
+    }
+    section.graySection{
+        background-color: #EAEAEA;
+        border-bottom: 0px;
+        
+        min-width: 372px;
+        padding: 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .graySection.test p{
+        margin-bottom: 26px;
+    }
+    
+/* Mi codigo para la pagina*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos del título */
+  .titu {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los contenedores */
+  .container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .content{
+    display: flex;
+    align-items: center;
+
+  }
+  .subtit{
+    font-size: 20px;
+    color:rgb(46, 100, 55);
+    margin-bottom: 10px;
+  }
+  /* Estilos de las listas */
+  .headlin {
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+
+  
+  /* Transiciones */
+  .container:hover,
+  .container:focus {
+    background-color: #a1e6b2;
+    transform: scale(1.02);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .primg{
+    width: 100px;
+    margin-left: 100px;
+  }
+
+  .primg2{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+}
+
+@media(min-width:744px) {
+
+    .homeContent{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1115px;
+        justify-content: center;
+        background-color: #EAEAEA;
+        margin: 0 auto;
+    }
+    section.graySection{
+        background-color: #EAEAEA;
+        border-bottom: 0px;
+        
+        min-width: 372px;
+        padding: 24px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .graySection.test p{
+        margin-bottom: 26px;
+    }
+    
+/* Mi codigo para la pagina*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos del título */
+  .titu {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los contenedores */
+  .container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .content{
+    display: flex;
+    align-items: center;
+
+  }
+  .subtit{
+    font-size: 20px;
+    color:rgb(46, 100, 55);
+    margin-bottom: 10px;
+  }
+  /* Estilos de las listas */
+  .headlin {
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+
+  
+  /* Transiciones */
+  .container:hover,
+  .container:focus {
+    background-color: #a1e6b2;
+    transform: scale(1.02);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .primg{
+    width: 100px;
+    margin-left: 200px;
+  }
+
+  .primg2{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 200px;
+  }
+}
+
+
+
+@media(min-width:1024px){
+ 
+    .homeContent{
+        column-gap: 100px;
+        row-gap: 50px;
+    }
+    
+/* Mi codigo para la pagina*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Estilos del título */
+  .titu {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos de los contenedores */
+  .container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+  .content{
+    display: flex;
+    align-items: center;
+
+  }
+  .subtit{
+    font-size: 20px;
+    color:rgb(46, 100, 55);
+    margin-bottom: 10px;
+  }
+  /* Estilos de las listas */
+  .headlin {
+    font-size: 16px;
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+
+  
+  /* Transiciones */
+  .container:hover,
+  .container:focus {
+    background-color: #a1e6b2;
+    transform: scale(1.02);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+
+  .primg{
+    width: 100px;
+    margin-left: 200px;
+  }
+
+  .primg2{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 200px;
+  }
+ }
+  
